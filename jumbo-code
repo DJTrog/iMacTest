@@ -1,0 +1,14 @@
+<!--jumbotron section-->
+<div class="jumbotron jumbotron-billboard">
+  <div class="img"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="h1">Content & Design</p>
+                <p class="jumbo-text">This is where I ramble on about my awesome skills and whatnot. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <!--<a href="#" class="btn btn-success btn-lg">Contact</a>!-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--end jumbotron-->
