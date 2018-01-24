@@ -1,12 +1,52 @@
+/*special for Happenings section*/
+.container-haps {
+  width: 100%;
+  height: auto;
+  background-color: #424242;
+  margin: 30px 0px;
+  justify-content: space-around;
+}
+.container-text {
+  color: #ffffff;
+  /* font-family: Consolas; */
+  width: 100%;
+  height: auto;
+  font-size: 1rem;
+  padding: 10% 0%;
+  justify-content: space-around;
+}
+.hap-head {
+  font-size: 1.5rem;
+  color: #ffffff;
+  /* font-family: Consolas; */
+  padding: 5% 10% 5% 10%;
+  text-align:left;
+  justify-content: space-around;
+}
+.dateline {
+  font-size: .75rem;
+  color: #ffffff;
+  padding: 0% 10% 0% 10%;
+  text-align: left;
+  justify-content: space-around;
+}
+.hr {
+  width: 80%;
+  height: 1px;
+  color: #ffffff;
+}
+/*end Happenings section*/
+
+
 .logo-container {
-  height: 150px;
-  width: 150px;
-  border-radius: 75px;
+  height: auto;
+  width: 700px;
+  /* border-radius: 75px; */
   border: none;
   text-align: center;
-  color: #4fb3bf;
-  background: #00838f;
-  margin: 30px auto 10px auto;
+  /* color: #4fb3bf; */
+  background: transparent;
+  /* margin: 30px auto 10px auto; */
 }
 .logo {
   font-family: 'Permanent Marker';
@@ -18,7 +58,7 @@
 .h2 {
   font-family:'Abril Fatface', cursive; serif;
   color: #e8f5e9;
-  font-size: 1.75em;
+  font-size: 1.75rem;
   text-align: center;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -36,20 +76,84 @@
   display: inline-block;
   /**margin-right: 20px;**/
 }
+.navbar-inner {
+  background-color:transparent;
+  text-color: #333333;
+}
+.navbar-fixed-top {
+  background-color:transparent;
+  text-color: #333333;
+}
 .nav-item {
   display: inline-block;
   margin: 10px;
+  color: #333333;
 }
 .nav-link {
   font-family: 'Open sans', sans-serif;
-  font-size: 20px;
-  color: #4caf50;
+  font-size: 1.25rem;
+  color: #000000;
   margin: 0 auto;
   display: inline-block;
+}
+.hero {
+  position: relative;
+  z-index: 1;
+  height:1200px;
+  text-align: center;
+  padding:40px;
+  /* background:url("../images/Shortribnew.jpg") no-repeat; */
+  background-color: black;
+  background-size: cover;
 }
 .content{
   margin-top:50px;
   margin-bottom:200px;
+}
+.about {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  color: #e0e0e0;
+  font-size: 1.25rem;
+}
+.about-container {
+  width: 100%;
+  height: auto;
+  background: #424242;
+  padding: 50px;
+}
+.about-heading {
+  font-family: 'Prompt', sans-serif;
+  font-size: 2rem;
+  weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+.haps-container {
+  width: 100%;
+  height: auto;
+  background-color: #424242;
+  padding: 50px;
+  margin: 0;
+}
+.happenings {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: left;
+
+}
+.happenings-container {
+  width: 100%;
+  height: auto;
+  background: #424242;
+  padding: 50px;
+  margin: 0;
+}
+.row-transparent {
+  background: transparent;
 }
 /**.subhead {
   font-family:'Abril Fatface', cursive; serif;
@@ -61,14 +165,14 @@ h1{
   /**margin-bottom: 20px;**/
   font-family:'Permanent Marker', cursive; sans-serif;
   color: #ffffff;
-  font-size: 3.5em;
+  font-size: 3.5rem;
   text-align: center;
   text-shadow: black 1px 1px 10px;
 }
 .full-overlay{
   position: relative;
   z-index: 1;
-  height:350px;
+  height:600px;
   text-align: center;
   padding:40px;
   background:url("../images/hero-pic2.jpg") no-repeat;
@@ -116,10 +220,10 @@ h1{
   font-weight: 800
 }**/
 .body-text {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
+  font-family: 'Prompt', sans-serif;
+  font-size: 1rem;
   color: #36454f;
-  font-weight: 800;
+  font-weight: 200;
   text-align: left;
 }
 /**.h1 {
@@ -129,10 +233,11 @@ h1{
   text-align: center;
   }**/
 .h3 {
-  font-family:'Permanent Marker', cursive; sans-serif;
-  color: #ffffff;
-  font-size: 2em;
-  text-align: center;
+  font-family:'Prompt', sans-serif;
+  font-weight:400;
+  color: #353535;
+  font-size: 2rem;
+  text-align: left;
   }
 .jumbo-text {
   font-family:'Abril Fatface', cursive; serif;
@@ -152,19 +257,36 @@ h1{
     margin: 0px 0px;
     padding: 0px;
   }
+  .row-dark {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px;
+    background: #424242;
+  }
   .heading {
     width: 100%;
     height: auto;
-    background: #00838f;
-    margin-top: 3em;
-    margin-bottom: 3em;
+    background: transparent;
+    margin: 10px;
+    padding: 20px;
   }
   .caption {
-    font-family:'Abril Fatface', cursive; serif;
-    font-size: 1em
+    font-family:'Prompt' sans-serif;
+    font-weight: 400400;
+    font-size: 1.5rem;
     text-align:center;
-    color: #4fb3bf;
+    color: #353535;
     margin-top: 15px;
+  }
+  .dateline {
+    font-family:'Raleway', cursive; serif;
+    font-size: 1rem
+    text-align:center;
+    color: #ffffff;
+  }
+  .hour-list {
+
   }
   .button {
       background-color: rgba(91, 114, 9, 0.5); /* Green */
@@ -179,6 +301,11 @@ h1{
       border-radius: 25px;
       /**margin: 0 auto;**/
   }
+  .res-stuff {
+    padding: 30px;
+    width: 100%;
+
+  }
   .absolute {
       position: absolute;
       top: 200px;
@@ -188,30 +315,30 @@ h1{
     }
   .footer {
     width: 100%;
-    background: #00838f;
+    background: #424242;
     margin-top: 30px;
   }
-  .footer-heading {
-    font-family:'Permanent Marker', cursive; sans-serif;
-    font-size: 2em;
-    text-align: center;
-    color: #ffffff;
+  /* .footer-heading { */
+    /* font-family:'Permanent Marker', cursive; sans-serif; */
+    /* font-size: 2em; */
+    /* text-align: center; */
+    /* color: #ffffff; */
   }
   .footer-text {
     text-align: center;
-    font-size: .75em;
+    font-size: 1em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    color: #e5ffff;
+    color: #e0e0e0;
   }
-  .email-text {
+  /* .email-text {
     text-align: center;
     font-size: .75em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     color: #e8f5e9;
-  }
-  .emal-text:hover {
+  } */
+  .footer-text:hover {
     font: #ffffff;
   }
   .icon-container {
@@ -222,23 +349,24 @@ h1{
     display: inline;
 }
 .social-media-container {
-    width: 100px;
+    width: 100%;
     height: auto;
     margin: 0 auto;
-    display:inline;
-    margin: 25px;
+    display: inline-flex;
+    padding: 30px;
 }
 .social-media-link {
     text-decoration: none;
     font-size: 45px;
-    color: #e5ffff;
+    color: #e0e0e0;
 }
 .social-media-link:hover {
-    color: #4fb3bf;
+    color: #ffffff;
     text-decoration: underline;
 }
 .contact-container {
-  text-align:left;
+  text-align: center;
+  padding-bottom: 30px;
 }
 .ul {
     text-align: center;
@@ -249,10 +377,10 @@ h1{
     text-align: center;
   }
 a:link {
-  color: #e5ffff;
+  color: #e0e0e0;
 }
 a:hover {
-  color: #4fb3bf;
+  color: #ffffff;
 }
 .scrollLink {
 
@@ -269,8 +397,8 @@ nav ul li a {
 }
 
 nav ul li:hover {
-  background-color: white;
-  color: #414141
+  /*background-color: white;*/
+  color: #353535
 }
 
 /**.nav-item {

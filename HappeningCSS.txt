@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  height: auto;
+  background-color: gray;
+}
+.container-text {
+  color: #ffffff;
+  /* font-family: Consolas; */
+  font-size: 1rem;
+  padding: 0% 10% 5% 10%;
+}
+.hap-head {
+  font-size: 1.5rem;
+  color: #ffffff;
+  /* font-family: Consolas; */
+  padding: 5% 10% 5% 10%;
+
+}
+.dateline {
+  font-size: .75rem;
+  color: #ffffff;
+  padding: 0% 10% 0% 10%;
+}
+.hr {
+  width: 80%;
+  color: #ffffff;
+}
+
