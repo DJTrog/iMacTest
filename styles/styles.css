@@ -107,9 +107,9 @@
   position: relative;
   z-index: 1;
   height:900px;
-  text-align: center;
+  /*text-align: center;*/
   padding:40px;
-  /* background:url("../images/Shortribnew.jpg") no-repeat; */
+  background:url("../images/hero_name.jpg") no-repeat;
   background-color: black;
   background-size: cover;
 }
