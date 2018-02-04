@@ -1,83 +1,23 @@
-/*special for Happenings section*/
-.container-haps {
-  width: 100%;
-  height: auto;
-  background-color: #424242;
-  margin: 30px 0px;
-  padding: 50px;
-  justify-content: space-around;
-}
-.container-text {
-  color: #ffffff;
-  /* font-family: Consolas; */
-  width: 100%;
-  height: auto;
-  font-size: 1rem;
-  padding: 10px;
-  margin: 0px 10px;
-}
-.hap-head {
-  font-size: 1.5rem;
-  color: #ffffff;
-  /* font-family: Consolas; */
-  padding: 0px;
-  text-align:left;
-  justify-content: space-around;
-}
-.dateline {
-  font-size: .75rem;
-  color: #ffffff;
-  padding: 0%;
-  text-align: left;
-  justify-content: space-around;
-}
-.hr {
-  width: 80%;
-  height: 1px;
-  color: #ffffff;
-}
-/*end Happenings section*/
-/*special for Reservations section*/
-.res-container {
-  width: 100%;
-  height: auto;
-  margin: 30px 0px;
-  padding: 50px;
-}
-
-.logo-container {
-  height: auto;
-  width: 700px;
-  /* border-radius: 75px; */
-  border: none;
-  text-align: center;
-  /* color: #4fb3bf; */
-  background: transparent;
-  /* margin: 30px auto 10px auto; */
-}
-.logo {
-  font-family: 'Permanent Marker';
-  font-size: 8em;
-  height: 150px;
-  line-height: 150px;
-  white-space: nowrap;
-}
-.h2 {
-  font-family:'Abril Fatface', cursive; serif;
-  color: #e8f5e9;
-  font-size: 1.75rem;
-  text-align: center;
-  padding-top: 0px;
-  padding-bottom: 0px;
-
+/*begin hero section*/
+.hero {
+  position: relative;
+  z-index: 1;
+  height: 900px;
+  /*text-align: center;*/
+  padding:40px;
+  background:url("../images/wine-compare.jpg") no-repeat;
+  /* background-color: black; */
+  background-size: cover;
+  /* background-color: #616161; */
 }
 .nav-container {
   height: 50px;
   width 100%;
-  text-align: center;
+  /*text-align: center;*/
 }
 .ul {
   display: inline-block;
+  list-style: none;
 }
 .li {
   display: inline-block;
@@ -95,6 +35,7 @@
   display: inline-block;
   margin: 10px;
   color: #333333;
+  text-align: right;Ó
 }
 .nav-link {
   font-family: 'Open sans', sans-serif;
@@ -103,80 +44,231 @@
   margin: 0 auto;
   display: inline-block;
 }
-.hero {
-  position: relative;
-  z-index: 1;
-  height:900px;
-  /*text-align: center;*/
-  padding:40px;
-  background:url("../images/hero_name.jpg") no-repeat;
-  background-color: black;
-  background-size: cover;
+.h1 {
+
 }
-.content{
-  margin-top:50px;
-  margin-bottom:200px;
-}
+/*begin About section*/
 .about {
   font-family: 'Prompt', sans-serif;
   font-weight: 200;
   text-align: center;
-  color: #e0e0e0;
+  color: #353535;
   font-size: 1.25rem;
 }
 .about-container {
   width: 100%;
   height: auto;
-  background: #424242;
-  padding: 50px;
+  background: #e0e0e0;
+  padding: 30px;
+  margin-bottom: 30px;
 }
 .about-heading {
   font-family: 'Prompt', sans-serif;
-  font-size: 2rem;
-  weight: 400;
-  color: #ffffff;
+  font-size: 2.5rem;
+  weight: 100;
+  color: #353535;
   text-align: center;
 }
-.haps-container {
+
+/*begin Menu section*/
+.food-pics-container {
+  padding: 50px;
+  width: 100%
+  height: auto;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.menu-container {
+  /* padding: 50px; */
+  width: 100%
+  height: auto;
+  background-color: #616161;
+  margin: 0px;
+}
+.row-white {
+  height: auto;
+  width: 100%;
+  padding: 30px;
+}
+.row-dark {
+  height: auto;
+  width: 100%;
+  padding: 50px;
+  background: #616161;
+  margin-bottom: 30px;
+}
+.col-menu {
   width: 100%;
   height: auto;
-  background-color: #424242;
-  padding: 50px;
-  margin: 0;
+  text-align: center;
+  margin-bottom: 30px;
+  display: inline;
 }
-.happenings {
-  font-family: 'Prompt', sans-serif;
+.caption {
+  font-family:'Prompt' sans-serif;
   font-weight: 200;
+  font-size: 1.5rem;
+  text-align:center;
   color: #ffffff;
-  font-size: 1rem;
+  margin-top: 50px;
+}
+.image-box {
+  max-width: 100%;
+  height: auto;
+}
+
+/*begin for Happenings section*/
+.container-haps {
+  width: 100%;
+  height: auto;
+  background-color: #e0e0e0;
+  margin: 0px;
+  padding: 50px;
+}
+.row-med {
+  height: auto;
+  width: 100%;
+  padding: 0px;
+  background: #e0e0e0;
+}
+.col-haps {
+  width: 100%;
+  height: auto;
   text-align: left;
+  display: inline-block;
+}
+.hap-image {
+  width: 100% max;
+  height: auto;
 
 }
-.happenings-container {
+.hap-text {
+  font-family: 'Prompt', sans-serif;
+  color: #353535;
   width: 100%;
   height: auto;
-  background: #424242;
-  padding: 50px;
-  margin: 0;
+  font-size: 1rem;
+  padding: 0px;
+  margin: 20px 0px;
+  text-align: left;
 }
-.row-transparent {
-  background: transparent;
+.heading-container{
+  height: 100px;
+  width: auto;
+  margin-top: 30px;
 }
-/**.subhead {
-  font-family:'Abril Fatface', cursive; serif;
-  color: black;
-  font-size: 1.5em;
-  text-align: center;
-}**/
-h1{
-  /**margin-bottom: 20px;**/
-  font-family:'Permanent Marker', cursive; sans-serif;
+.hap-head {
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.5rem;
+  color: #353535;
+  padding: 0px;
+  text-align:left;
+}
+.dateline {
+  font-family: 'courier', sans-serif;
+  font-size: 1rem;
+  color: #353535;
+  padding: 0%;
+  text-align: left;
+  justify-content: space-around;
+}
+.hr {
+  width: 80%;
+  height: 1px;
   color: #ffffff;
-  font-size: 3.5rem;
-  text-align: center;
-  text-shadow: black 1px 1px 10px;
 }
-.full-overlay{
+
+/*begin Reservations section*/
+.res-container {
+  width: 100%;
+  height: auto;
+  margin: 30px 0px;
+  padding: 50px;
+  background-color: #ffffff;
+}
+.body-text {
+  font-family: 'Prompt', sans-serif;
+  font-size: 1rem;
+  color: #353535;
+  font-weight: 200;
+  text-align: left;
+}
+.h3 {
+  font-family:'Prompt', sans-serif;
+  font-weight:200;
+  color: #353535;
+  font-size: 2rem;
+  text-align: left;
+  }
+
+/*begin footer section*/
+.footer {
+  width: 100%;
+  background: #616161;
+  /*margin-top: 30px;*/
+  padding: 30px;
+  height: auto;
+}
+.footer-text {
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 800;
+  color: #e0e0e0;
+}
+/* .email-text {
+  text-align: center;
+  font-size: .75em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #e8f5e9;
+} */
+.footer-text:hover {
+  font: #ffffff;
+}
+/* .copyright {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem
+  /* font-weight: 800;
+  font-color: #e0e0e0;
+  text-align: center;
+} */
+
+
+
+/* .logo-container {
+  height: auto;
+  width: 700px;
+  /* border-radius: 75px;
+  border: none;
+  text-align: center;
+  background-color: #424242; */
+  /* color: #4fb3bf; */
+  /* margin: 30px auto 10px auto; */
+}
+/* .logo { */
+  /* font-family: 'Permanent Marker'; */
+  /* font-size: 8em;
+  height: 150px;
+  line-height: 150px;
+  white-space: nowrap;
+/* } */
+/*.h2 {
+  font-family:'Abril Fatface', cursive; serif;
+  color: #e8f5e9;
+  font-size: 1.75rem;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}*/
+
+
+
+
+
+/*.full-overlay{
   position: relative;
   z-index: 1;
   height:600px;
@@ -197,7 +289,7 @@ h1{
   bottom: 0;
   top: 0;
   }
-
+*/
 /**.jumbotron-billboard .img {
     margin-bottom: 0px;
     opacity: 1.0;
@@ -226,51 +318,22 @@ h1{
   color: #4caf50;
   font-weight: 800
 }**/
-.body-text {
-  font-family: 'Prompt', sans-serif;
-  font-size: 1rem;
-  color: #36454f;
-  font-weight: 200;
-  text-align: left;
-}
+
 /**.h1 {
   font-family:'Permanent Marker', cursive; sans-serif;
   color: #4caf50;
   font-size: 4em;
   text-align: center;
   }**/
-.h3 {
-  font-family:'Prompt', sans-serif;
-  font-weight:400;
-  color: #353535;
-  font-size: 2rem;
-  text-align: left;
-  }
+
 .jumbo-text {
   font-family:'Abril Fatface', cursive; serif;
   color: #35353;
   font-size: 1.5em;
   text-align: center;
   }
-  .col {
-    background-color: white;
-    /**height: 250px;**/
-    padding: 20px;
-    /**border: 10px solid #ffffff;**/
-  }
-  /*.row {
-    height: auto;
-    width: 100%;
-    margin: 0px 0px;
-    padding: 0px;
-  }*/
-  .row-dark {
-    height: auto;
-    width: 100%;
-    margin: 0px 0px;
-    padding: 0px;
-    background: #424242;
-  }
+
+
   .heading {
     width: 100%;
     height: auto;
@@ -278,23 +341,8 @@ h1{
     margin: 10px;
     padding: 50px;
   }
-  .caption {
-    font-family:'Prompt' sans-serif;
-    font-weight: 400400;
-    font-size: 1.5rem;
-    text-align:center;
-    color: #353535;
-    margin-top: 15px;
-  }
-  .dateline {
-    font-family:'Raleway', cursive; serif;
-    font-size: 1rem
-    text-align:center;
-    color: #ffffff;
-  }
-  .hour-list {
 
-  }
+
   .button {
       background-color: rgba(91, 114, 9, 0.5); /* Green */
       border: none;
@@ -320,43 +368,7 @@ h1{
       width: 325px;
       height: 125px;
     }
-  .footer {
-    width: 100%;
-    background: #424242;
-    /*margin-top: 30px;*/
-    padding: 30px;
-    height: auto;
-  }
-  /* .footer-heading { */
-    /* font-family:'Permanent Marker', cursive; sans-serif; */
-    /* font-size: 2em; */
-    /* text-align: center; */
-    /* color: #ffffff; */
-  }
-  .footer-text {
-    text-align: center;
-    font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    color: #e0e0e0;
-  }
-  /* .email-text {
-    text-align: center;
-    font-size: .75em;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    color: #e8f5e9;
-  } */
-  .footer-text:hover {
-    font: #ffffff;
-  }
-  .copyright {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem
-    font-weight: 800;
-    font-color: #e0e0e0;
-    text-align: center;
-  }
+
   .icon-container {
     height: auto;
     width: 50%;
@@ -442,7 +454,6 @@ nav ul li:hover {
 .no-pad {
   padding: 0;
 }
-@media only screen and (max-width: 768px){
+/*@media only screen and (max-width: 768px){
   .navbar-nav: Menu-hamburger icon: <span class="glyphicon glyphicon-menu-hamburger"></span>
-}
-}
+}*/
