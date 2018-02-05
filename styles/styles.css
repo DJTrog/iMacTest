@@ -2,13 +2,25 @@
 .hero {
   position: relative;
   z-index: 1;
-  height: 900px;
-  /*text-align: center;*/
-  padding:40px;
-  background:url("../images/wine-compare.jpg") no-repeat;
-  /* background-color: black; */
+  height: 100%;
+  width: auto;
+  background:url("../images/hero_logo.jpg") no-repeat center center;
   background-size: cover;
-  /* background-color: #616161; */
+}
+  /* max-height: 900px; */
+  /* min-height: 700px; */
+  /* width: 100%; */
+  /* max-height: 900px; */
+  /* width: auto; */
+  /* padding:40px; */
+  /* text-align: center; */
+  /* display: flex; */
+  /* background-size: cover;
+  height: 700px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 .nav-container {
   height: 50px;
@@ -23,13 +35,13 @@
   display: inline-block;
   /**margin-right: 20px;**/
 }
-.navbar-inner {
+/* .navbar-inner {
   background-color:transparent;
   text-color: #333333;
 }
 .navbar-fixed-top {
   background-color:transparent;
-  text-color: #333333;
+  text-color: #333333; */
 }
 .nav-item {
   display: inline-block;
@@ -59,8 +71,8 @@
   width: 100%;
   height: auto;
   background: #e0e0e0;
-  padding: 30px;
-  margin-bottom: 30px;
+  padding: 50px;
+  margin-bottom: 0px;
 }
 .about-heading {
   font-family: 'Prompt', sans-serif;
@@ -72,31 +84,34 @@
 
 /*begin Menu section*/
 .food-pics-container {
-  padding: 50px;
-  width: 100%
+  padding: 0px;
+  width: 100%;
   height: auto;
-  background-color: #ffffff;
-  margin-bottom: 30px;
-  margin-left: 30px;
+  /* background-color: #ffffff; */
+  /* margin-bottom: 50px; */
+  margin: 0px 0px;
+  /* display: inline-block; */
 }
 .menu-container {
   /* padding: 50px; */
   width: 100%
   height: auto;
   background-color: #616161;
-  margin: 0px;
+  margin: 0px 0px;
 }
 .row-white {
   height: auto;
   width: 100%;
-  padding: 30px;
+  padding: 0px;
+  margin-top: 20px;
+
 }
 .row-dark {
   height: auto;
   width: 100%;
   padding: 50px;
   background: #616161;
-  margin-bottom: 30px;
+  margin-top: 50px;
 }
 .col-menu {
   width: 100%;
@@ -114,7 +129,7 @@
   margin-top: 50px;
 }
 .image-box {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -136,23 +151,21 @@
   width: 100%;
   height: auto;
   text-align: left;
-  display: inline-block;
 }
 .hap-image {
-  width: 100% max;
-  height: auto;
-
-}
-.hap-text {
-  font-family: 'Prompt', sans-serif;
-  color: #353535;
   width: 100%;
   height: auto;
-  font-size: 1rem;
-  padding: 0px;
   margin: 20px 0px;
-  text-align: left;
 }
+/* .hap-text {
+  font-family: 'Prompt', sans-serif;
+  color: #353535;
+  font-size: 1rem;
+  font-weight: 200;
+  text-align: left;
+  padding: 10px;
+  margin: 20px 0px;
+} */
 .heading-container{
   height: 100px;
   width: auto;
@@ -176,7 +189,7 @@
 .hr {
   width: 80%;
   height: 1px;
-  color: #ffffff;
+  color: #353535;
 }
 
 /*begin Reservations section*/
@@ -189,7 +202,7 @@
 }
 .body-text {
   font-family: 'Prompt', sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #353535;
   font-weight: 200;
   text-align: left;
@@ -214,7 +227,7 @@
   text-align: center;
   font-size: 1rem;
   font-family: 'Prompt', sans-serif;
-  font-weight: 800;
+  font-weight: 200;
   color: #e0e0e0;
 }
 /* .email-text {
