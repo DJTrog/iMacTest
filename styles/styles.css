@@ -6,7 +6,7 @@
   list-style: none;
   margin: 0;
 
-  background: #616161;
+  background: #424242;
 
   display: -webkit-box;
   display: -moz-box;
@@ -21,10 +21,10 @@
   text-decoration: none;
   display: block;
   padding: 1em;
-  color: white;
+  color: #e0e0e0;
 }
 .navigation a:hover {
-  background: darken(#616161, 20%);
+  background: darken(#424242,40%);
 }
 @media all and (max-width: 800px) {
   .navigation {
@@ -50,9 +50,11 @@
 
 /*NEW Hero section*/
 .hero-container {
-  width: 100%
-  height: 700px;
-  padding: 0px;
+  width: 100%;
+  height: auto;
+  /* background: cover 100% 100%; */
+  /* padding: 0px; */
+  /* margin-bottom: 10px; */
 }
 
 
@@ -101,7 +103,7 @@
   font-family: 'Prompt', sans-serif;
   font-weight: 200;
   text-align: center;
-  color: #353535;
+  color: #424242;
   font-size: 1.25rem;
 }
 .about-container {
@@ -109,13 +111,13 @@
   height: auto;
   background: #ffffff;
   padding: 50px;
-  margin-bottom: 0px;
+  margin-top: 1px;
 }
 .about-heading {
   font-family: 'Prompt', sans-serif;
   font-size: 2.5rem;
   weight: 100;
-  color: #353535;
+  color: #424242;
   text-align: center;
 }
 
@@ -262,7 +264,7 @@
 /*begin footer section*/
 .footer {
   width: 100%;
-  background: #616161;
+  background: #424242;
   /*margin-top: 30px;*/
   padding: 30px;
   height: auto;
