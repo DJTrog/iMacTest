@@ -1,6 +1,6 @@
 /*NEW Nav section*/
 
-@import "compass/css3";
+/* @import "compass/css3"; */
 
 .navigation {
   list-style: none;
@@ -110,7 +110,7 @@
   width: 100%;
   height: auto;
   background: #ffffff;
-  padding: 50px;
+  padding: 10%;
   margin-top: 1px;
 }
 .about-heading {
@@ -178,7 +178,7 @@
 .caption {
   font-family:'Prompt' sans-serif;
   font-weight: 200;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   text-align:center;
   color: #ffffff;
   margin-top: 50px;
@@ -215,12 +215,12 @@
 .heading-container{
   height: 100px;
   width: auto;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .hap-head {
   font-family: 'Prompt', sans-serif;
-  font-size: 1.5rem;
-  color: #353535;
+  font-size: 1.25rem;
+  color: #424242;
   padding: 0px;
   text-align:left;
 }
