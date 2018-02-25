@@ -21,7 +21,8 @@
   text-decoration: none;
   display: block;
   padding: 1em;
-  color: #f5f5f5;
+  color: #757575;
+  font-size: 1.25rem;
 }
 .navigation a:hover {
   background: darken(#212121,40%);
@@ -238,7 +239,7 @@
 .hap-head {
   font-family: 'Prompt', sans-serif;
   font-size: 1.25rem;
-  line-height: 80%;
+  line-height: 100%;
   color: #353535;
   padding-top: 20px;
   text-align:left;
@@ -247,7 +248,7 @@
 .dateline {
   font-family: 'Prompt', sans-serif;
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 100%;
   color: #000000;
   padding: 0%;
   text-align: left;
@@ -270,8 +271,8 @@
   background-color: #f5f5f5;
 }
 .col-map {
-  height: 450px;
-  width: auto;
+  height: auto;
+  width: 100%;
   /* max-width: 350px; */
   /* margin: 0 auto; */
   padding: 0% 0%;
@@ -280,14 +281,16 @@
   text-align: center;
   align-content: left;
   margin-bottom: 5%;
+  display: inline;
 }
 .col-hours {
-  height: 450px;
-  width: auto;
-  /* max-width: 350px; */
+  height: auto;
+  width: 100%;
+  max-width: 375px;
   /* margin-top: 5%; */
   padding: 0% 5%;
-  text-align: center;
+  text-align: left;
+  display: inline;
 }
 .body-text {
   font-family: 'Prompt', sans-serif;
