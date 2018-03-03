@@ -280,7 +280,7 @@
   border-radius: 10px; */
   text-align: center;
   align-content: center;
-  margin-bottom: 5%;
+  margin: 0 auto;
   display: inline;
 }
 .col-hours {
