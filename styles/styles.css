@@ -348,6 +348,7 @@
   font-family: 'Prompt', sans-serif;
   font-weight: 200;
   color: #e0e0e0;
+  text-decoration: none;
 }
 .footer-text:hover {
   font: #ffffff;
