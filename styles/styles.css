@@ -5,6 +5,7 @@
 .navigation {
   list-style: none;
   margin: 0;
+  padding-right: 1rem;
 
   background: #212121;
 
@@ -391,6 +392,8 @@ a:hover {
   color: #ffffff;
 }
 a[href^=tel] { color: inherit; text-decoration: none;
+}
+a[href^=mailto] { color: inherit; text-decoration: none;
 }
 
 .container-fluid {
