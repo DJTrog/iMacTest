@@ -392,6 +392,8 @@ a:hover {
 }
 a[href^=tel] { color: inherit; text-decoration: none;
 }
+a[href^=mailto] { color: inherit; text-decoration: none;
+}
 
 .container-fluid {
       padding: 0;
