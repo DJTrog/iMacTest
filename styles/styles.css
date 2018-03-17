@@ -56,8 +56,11 @@
 
 /*NEW Hero section*/
 .hero-container {
-  width: 100%;
-  height: auto;
+  /* width: 100%; */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* background: cover 100% 100%; */
   /* padding: 0px; */
   /* margin-bottom: 10px; */
