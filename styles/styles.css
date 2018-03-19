@@ -1,11 +1,14 @@
-/*NEW Nav section*/
+/* body, html {
+    height: 100%;
+} */
 
-/* @import "compass/css3"; */
+/*Nav section*/
 
 .navigation {
   list-style: none;
   margin: 0;
-  padding-right: 1rem;
+  padding-right: .1rem;
+
 
   background: #212121;
 
@@ -21,9 +24,12 @@
 .navigation a {
   text-decoration: none;
   display: block;
-  padding: 0.5rem;
+  font-family: "Prompt" sans-serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  padding: 1rem;
   color: #757575;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 .navigation a:hover {
   background: darken(#212121,40%);
@@ -50,53 +56,14 @@
   }
 }
 
-/*NEW Hero section*/
+/*Hero section*/
 .hero-container {
   width: 100%;
   height: auto;
-  /* background: cover 100% 100%; */
-  /* padding: 0px; */
-  /* margin-bottom: 10px; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
 }
-
-
-/*OLD hero section*/
-/* .hero {
-  position: relative;
-  z-index: 1;
-  height: 80vh;
-  width: auto;
-  background:url("../images/hero_logo.jpg") no-repeat center center;
-  background-size: cover;
-  image: img-fluid;
-
-}
-.nav-container {
-  height: 50px;
-  width 100%;
-  text-align: center;
-}
-.ul {
-  display: inline-block;
-  list-style: none;
-}
-.li {
-  display: inline-block;
-  margin-right: 20px;
-}
-.nav-item {
-  display: inline-block;
-  margin: 10px;
-  color: #333333;
-  text-align: right;Ó
-}
-.nav-link {
-  font-family: 'Open sans', sans-serif;
-  font-size: 1.25rem;
-  color: #000000;
-  margin: 0 auto;
-  display: inline-block;
-} */
 
 /*Invisible H1*/
 
@@ -148,41 +115,22 @@
 .row-food {
   align-content: center;
 }
-/* .row-food {
-  padding: 5%;
-  width: 100%;
-  height: auto;
-  justify-content: space-around;
-  align-content: center; */
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
-}
 .col-food {
   width: 100%;
   height: auto;
   text: center;
   display: inline;
-  /* text-align: center; */
-  /* display: inline-block; */
-  /* margin: 0 auto; */
 }
 .item {
   height: auto;
   width: 100%;
   margin: 5px 0px;
-  /* max-width: 350px; */
-
-  /* display: flex; */
-  /* margin: 10px 0px; */
-  /* flex-grow: 1; */
 }
 
 /*Begin Menu section*/
 
 .menu-container {
-  /* padding: 50px; */
-  width: 100%
+  width: 100%;
   height: auto;
   background: url("../images/wine-corks.jpg") center center;
   background-size: cover;
@@ -205,9 +153,7 @@
   width: 100%;
   height: auto;
   text-align: center;
-  /* margin-bottom: 30px; */
   display: inline-block;
-  /* padding-top: 40px 40px; */
 }
 
 
@@ -270,7 +216,6 @@
   padding: 0%;
   text-align: left;
   margin-bottom: 0rem;
-  /* justify-content: space-around; */
 }
 .hr {
   width: 100%;
@@ -284,29 +229,19 @@
 .res-container {
   width: 100%;
   height: auto;
-  /* margin: 30px 0px; */
   padding: 5% 10%;
   background-color: #f5f5f5;
 }
 .col-map {
   height: 525px;
   width: auto;
-  /* max-width: 350px; */
-  /* margin: 0 auto; */
-  /* padding: 0% 0%; */
-  /* border: solid 0.5px #9e9e9e;
-  border-radius: 10px; */
   text-align: center;
-  /* align-content: center; */
   margin-bottom: 1.5rem;
   display: inline;
 }
 .col-hours {
   height: 450px;
   width: 100%;
-  /* max-width: 375px; */
-  /* margin-top: 5%; */
-  /* padding: 5% 5% 0% 5%; */
   align-content: center;
   text-align: center;
   display:inline;
@@ -329,23 +264,18 @@
   text-align: center;
   margin-bottom: 0rem;
   }
-/* .res-para {
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-  } */
 
 /*begin footer section*/
 
 .footer {
   width: 100%;
   background: #212121;
-  /*margin-top: 30px;*/
-  padding: 30px;
+  padding: 10px;
   height: auto;
 }
 .footer-text {
   text-align: center;
-  font-size: 1rem;
+  font-size: .75rem;
   font-family: 'Prompt', sans-serif;
   font-weight: 200;
   color: #e0e0e0;
@@ -359,7 +289,7 @@
     height: 75px;
     margin: 0 auto;
     display: inline-flex;
-    padding-top: 30px;
+    padding-top: 5px;
 }
 .social-media-link {
     text-decoration: none;
@@ -403,113 +333,3 @@ a[href^=mailto] { color: inherit; text-decoration: none;
 .no-pad {
   padding: 0;
 }
-
-
-
-  /* .row-white {
-    height: auto;
-    width: 100%;
-    padding: 0px;
-    margin: 20px 0px;
-  } */
-  /* .row-dark {
-    height: auto;
-    width: 100%;
-    padding: 50px;
-    background: #616161;
-    margin-top: 50px;
-  } */
-/*.full-overlay{
-  position: relative;
-  z-index: 1;
-  height:600px;
-  text-align: center;
-  padding:40px;
-  background:url("../images/hero-pic2.jpg") no-repeat;
-  background-size: cover;
-}
-.full-overlay:after{
-  background: rgba(0, 0, 0, 0.5);
-  content: "";
-  width: 100%;
-  height: auto;
-  position: absolute;
-  z-index: -1;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  top: 0;
-  }
-*/
-/**.jumbotron-billboard .img {
-    margin-bottom: 0px;
-    opacity: 1.0;
-    color: #black;
-    background: url('../images/hero-pic2.jpg') center center;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    overflow: hidden;
-
-    position:absolute;
-    top:0;left:0;
-    z-index:1;
-}
-.jumbotron {
-  position:relative;padding:50px;
-}
-.jumbotron .container {
-  z-index:2;
- position:relative;
-  z-index:2;
-}
-.jumbo-text {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2em;
-  color: #4caf50;
-  font-weight: 800
-}**/
-
-
-  /* .absolute {
-      position: absolute;
-      top: 200px;
-      left: 40%;
-      width: 325px;
-      height: 125px;
-    } */
-
-
-
-/* .scrollLink { */
-
-}
-/* nav ul li a {
-  color: white; */
-}
-
-/* nav ul li:hover {
-  background-color: white;
-  color: #353535
-}*/
-
-/**.nav-item {
-    display: inline-block;
-    margin: 0 10px;
-    padding: 0px 35px;
-    background-color: white;
-    border: 6px solid cadetblue;
-}
-.nav-item:hover {
-  background-color: rgb(0, 131, 143);
-  color: #414141;
-}
-.nav-item:hover a{
-  color: white!important;
-}**/
-
-
-}
-/*@media only screen and (max-width: 768px){
-  .navbar-nav: Menu-hamburger icon: <span class="glyphicon glyphicon-menu-hamburger"></span>
-}*/
