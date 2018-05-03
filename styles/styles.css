@@ -328,8 +328,8 @@
     font-size: 1em;
     text-align: center;
   }
-  .link-color {
-    color: #212121;
+  /* .link-color {
+    color: #212121; */
   }
 a:link {
   color: #e0e0e0;
