@@ -152,10 +152,14 @@
 .sub-caption {
   font-family:'Prompt' sans-serif;
   font-weight: 100;
-  font-size: 1rem;
+  font-size: 1.25rem;
   letter-spacing: 4px;
   text-align:center;
   color: #ffffff;
+  margin-top: 20px;
+}
+.specials-caption {
+  text-align:center;
   margin-top: 20px;
 }
 .col-menu {
@@ -324,16 +328,24 @@
     font-size: 1em;
     text-align: center;
   }
+  .link-color {
+    color: #212121;
+  }
 a:link {
   color: #e0e0e0;
 }
 a:hover {
   color: #ffffff;
 }
+a.class2:link {color:inherit; text-decoration: none;}
+a.class2:link  {text-decoration: none;}
+a.class2:visited {text-decoration: none;}
+
 a[href^=tel] { color: inherit; text-decoration: none;
 }
 a[href^=mailto] { color: inherit; text-decoration: none;
 }
+
 
 .container-fluid {
       padding: 0;
